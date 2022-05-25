@@ -1,0 +1,194 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 719px;
+    left: 1368px;
+    top: 166px;
+
+background: #FFFFFF;
+}
+
+.header-div {
+    text-align: center;
+    width: 550px;
+height: 190px;
+margin: 0;
+padding: 0;
+
+background: #F5F5F5;
+}
+
+header-div > h1 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #2B283A;
+
+}
+
+.header-div > h4 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+
+text-align: center;
+
+color: #2B283A;
+
+}
+
+
+.button-div > button {
+    width: 143.17px;
+    height: 45px;
+    left: 38px;
+    top: 227px;
+
+background: #FFFFFF;
+border: 1px solid #D5D4D8;
+border-radius: 7px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    padding-top: 30px;
+}
+
+
+.featured-services {
+    display: flex;
+    justify-content: space-between;
+    gap: 8em;
+    margin: 2em 0;
+}
+
+
+
+.featured-services > div {
+    flex: 1 1 50%;
+}
+
+
+
+.col-2 {
+    text-align: right;
+}
+
+
+
+h3 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+color: #4A4E74;
+
+}
+
+
+
+.task {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 20px;
+color: #918E9B;
+margin: 0;
+}
+
+
+
+.col-2 > p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 20px;
+color: #918E9B;
+margin: 0;
+}
+
+.footer-div {
+    display: flex;
+    gap: 9em;
+    margin-bottom: 3em;
+    
+}
+
+.footer-div > div {
+    flex: 1 1 50%;
+    
+}
+
+.footer-div2 {
+    text-align: right;
+}
+
+.tender-accepted {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #4A4E74;
+width: 218px;
+}
+
+.total-amt, .notes {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 32px;
+color: #918E9B;
+
+}
+
+.total {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 32px;
+/* or 89% */
+
+text-align: right;
+
+color: #4A4E74;
+}
+
+.send-invoice-btn {
+    width: 473px;
+height: 44px;
+left: 38px;
+top: 622px;
+
+background: #3770ED;
+border: none;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 7px;
+color: #ffffff;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+}
